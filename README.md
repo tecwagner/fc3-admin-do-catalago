@@ -19,7 +19,7 @@
 
 ## O Projeto será trabalhado em três modulos.
 
-    - doamin
+    - domain
         - Esse é o modulo de mais alto nivel que terá outros modulos como:
             - entidades
             - objetos que contenha as regras de negocio
@@ -30,6 +30,13 @@
     - infrastructure que liga os casos de uso aos entrypoints, que são as entradas externas que vem via restFull, mensagens e coliga ao useCase, domain e as interfaces de gateway.
         - Persistencia.
         - Cache em memoria
+
+## Tatica de Patterns em DDD
+
+    - Value Objects
+    - Aggregates e Entities
+    - Domain Services
+    - Factories
 
 ## Aquitetura para o projeto será TDD.
 
@@ -64,4 +71,13 @@
 
             - test
                 - Criando o pacote de test para o metodo Main
-                    - Criando o test para chamada da classe main        
+                    - Criando o test para chamada da classe main
+
+## Implementando o DDD ao Projeto
+
+    - Criando classes abastratas para o pacote de domain
+    - As classes abastratas que nos servirão como modelos
+
+        - ValueObject
+        - Entity
+        - Identifier
