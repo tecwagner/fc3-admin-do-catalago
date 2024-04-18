@@ -20,6 +20,7 @@
 ## O Projeto será trabalhado em três modulos.
 
     - domain
+
         - Esse é o modulo de mais alto nivel que terá outros modulos como:
             - entidades
             - objetos que contenha as regras de negocio
@@ -37,7 +38,7 @@
     - Aggregates e Entities
     - Domain Services
     - Factories
-
+    
 ## Aquitetura para o projeto será TDD.
 
     - Podemos excluir a pasta SRC
@@ -81,3 +82,4 @@
         - ValueObject
         - Entity
         - Identifier
+
