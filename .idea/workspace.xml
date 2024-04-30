@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80074f3-69c2-4237-a55e-cd18c71869f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalago/application/UseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/fullcycle/admin/catalago/application/UseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +27,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fc3-admin-do-catalago" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -48,19 +58,26 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Gradle.Build fc3-admin-do-catalago.executor": "Run",
+    "Gradle.CategoryTest.givenAValidParams_whenCallNewCategory_thenInstantiateACategory.executor": "Run",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "Gradle.UseCaseTest.executor": "Run",
+    "Gradle.UseCaseTest.testCreateUseCase.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20240416_0000",
-    "git-widget-placeholder": "developer",
+    "com.google.cloudcode.ide_session_index": "20240426_0001",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-22",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/wagner/projeto/java/fiap-java-fundamentos",
+    "last_opened_file_path": "/home/wagner/projetos/cursosFiap/fiap-java-fundamentos",
     "onboarding.tips.debug.path": "//wsl$/Ubuntu/home/wagner/projeto/java/fc3-admin-do-catalago/application/src/main/java/com/fullcycle/admin/catalago/application/Main.java",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.UseCaseTest.testCreateUseCase">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -76,13 +93,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
-      </set>
-    </attachedChunks>
+    <configuration name="CategoryTest.givenAValidParams_whenCallNewCategory_thenInstantiateACategory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":domain:test" />
+            <option value="--tests" />
+            <option value="&quot;com.fullcycle.admin.catalogo.domain.categoryTest.CategoryTest.givenAValidParams_whenCallNewCategory_thenInstantiateACategory&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UseCaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":application:test" />
+            <option value="--tests" />
+            <option value="&quot;com.fullcycle.admin.catalago.application.UseCaseTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UseCaseTest.testCreateUseCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":application:test" />
+            <option value="--tests" />
+            <option value="&quot;com.fullcycle.admin.catalago.application.UseCaseTest.testCreateUseCase&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.UseCaseTest.testCreateUseCase" />
+        <item itemvalue="Gradle.CategoryTest.givenAValidParams_whenCallNewCategory_thenInstantiateACategory" />
+        <item itemvalue="Gradle.UseCaseTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,5 +183,10 @@
       <updated>1712738612044</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+    </ignored-roots>
   </component>
 </project>
