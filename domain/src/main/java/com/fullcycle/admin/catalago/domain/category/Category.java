@@ -4,7 +4,7 @@ import java.time.Instant; // Instant ele retorna uma data mais precisa em UTC
 import java.util.UUID; // UUID ele gera um identificador unico
 
 // Classe Category
-public class Category {
+public class Category  {
 
     private String id;
     private String name;
@@ -23,7 +23,8 @@ public class Category {
             final boolean active,
             final Instant createdAt,
             final Instant updatedAt,
-            final Instant deletedAt) {
+            final Instant deletedAt
+    ) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -36,8 +37,8 @@ public class Category {
     public static Category newCategory(
             final String name,
             final String description,
-            final boolean isActive) {
-
+            final boolean isActive
+    ) {
         final var id = UUID.randomUUID().toString();
         final var now = Instant.now();
 

@@ -80,6 +80,8 @@
     - As classes abastratas que nos servirão como modelos
 
         - ValueObject
-        - Entity
-        - Identifier
+        - Entity = É um indentificador pelo seu id protegido e final, para ser imutavel.
+        - Identifier = O indetifier é um objeto de valor que usa de extends do ValueObject
+        - AggregateRoot = Agregado raiz, que extends de Identifier e extends Entity
+        
 
