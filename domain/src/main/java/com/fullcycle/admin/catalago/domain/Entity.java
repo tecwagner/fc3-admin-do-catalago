@@ -5,11 +5,11 @@ import java.util.*;
 // O tipo generico ID está extension de um Identificador que é classe abstrata de um objeto de valor.
 public abstract class Entity<ID extends Identifier> {
 
+    // Protegido e imutavel
     protected final ID id;
 
     protected Entity(final ID id) {
-
-        Objects.requireNonNull(id, "Id cannot be null");
+        Objects.requireNonNull(id, "'Id' should not be null");
         this.id = id;
     }
 
