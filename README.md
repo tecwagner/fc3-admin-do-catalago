@@ -83,5 +83,16 @@
         - Entity = É um indentificador pelo seu id protegido e final, para ser imutavel.
         - Identifier = O indetifier é um objeto de valor que usa de extends do ValueObject
         - AggregateRoot = Agregado raiz, que extends de Identifier e extends Entity
-        
+
+## Implementando o CategoryID.
+
+    - O CategoryID ira extender de Indentfier.
+    - O Indetfier extends de ValueObject
+
+## Inclussão das Validações de Negocio
+
+## Implementado o Testes Unitarios DDD para Category.
+
+    - Será implementado o metodo para tratar os erros com Handler interface
+
 

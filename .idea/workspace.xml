@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80074f3-69c2-4237-a55e-cd18c71869f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/category/CategoryID.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/AggregateRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/AggregateRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/Identifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/Identifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/category/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/fullcycle/admin/catalago/domain/category/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/fullcycle/admin/catalogo/domain/categoryTest/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/test/java/com/fullcycle/admin/catalogo/domain/categoryTest/CategoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -40,6 +40,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,7 +73,7 @@
     "Gradle.UseCaseTest.testCreateUseCase.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20240502_0000",
+    "com.google.cloudcode.ide_session_index": "20240520_0000",
     "git-widget-placeholder": "developer",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-22",
@@ -79,7 +86,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Gradle.UseCaseTest">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -145,8 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CategoryTest.givenAValidParams_whenCallNewCategory_thenInstantiateACategory" />
         <item itemvalue="Gradle.UseCaseTest" />
+        <item itemvalue="Gradle.CategoryTest.givenAValidParams_whenCallNewCategory_thenInstantiateACategory" />
       </list>
     </recent_temporary>
   </component>
